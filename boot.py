@@ -1,3 +1,7 @@
 from os import system as  sys
 
-sys('sudo pacman -Syyu')
+def main():
+    sys('sudo pacman -Syyu')
+
+if __name__ == '__main__':
+        main()
